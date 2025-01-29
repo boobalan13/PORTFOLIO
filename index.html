@@ -1,118 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio Page</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boobalan - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <div class="home">Home</div>
-    <nav>
-      <a href="#about-sec">About Me</a>
-      <a href="#skills">Skills</a>
-      <a href="#works">Works</a>
-      <a href="#">Contact Me</a>
-    </nav>
-  </header>
-  <div class="container">
-    <div class="left-section">
-      <h2>Hi, I am</h2>
-      <h1>BOOBALAN</h1>
-      <h2>Student</h2>
-      <div class="social-icons">
-        <a href="mailto:balanravi1304@gmail.com"><img src="assets/email.png" alt="Email"></a>
-        <a href="https://github.com/boobalan13"><img src="assets/github.png" alt=""></a>
-        <a href="https://www.linkedin.com/in/boobalan-ravi-b60b25291/"><img src="/assets/linkedin.png" alt=""></a>
-      </div>
-    </div>
-    <div class="right-section">
-      <img src="./assets/Balan remove bg.png" alt="BalanImage">
-    </div>
-  </div>
-  <div class="about-container">
-    <div class="content-wrapper">
-      <div class="text-section" >
-        <h1  id="about-sec">About Me</h1>
-        <p>
-          Hi! I'm Boobalan, a second-year B.E. Computer Science and Engineering student at Sri Eshwar College of Engineering, Coimbatore.        </p>
-        <p>
-            
-        </p>I have a solid foundation in programming and development, with proficiency in C, C++, Java, HTML, CSS, and basic JavaScript. My technical skills reflect my passion for coding and problem-solving.
-        <p>
-          I am eager to explore innovative technologies and enhance my expertise in software development and web design. My aim is to contribute effectively to the tech industry by leveraging my skills and continuously learning new advancements.
-        </p>
-      </div>
-      <!-- <div class="logo-section">
-        <img src="assets/YT_PNG1.png" alt="YouTube Logo">
-      </div> -->
-    </div>
-  </div>
-  <div class="skills-container" id="skills">
-    <h1>Skills</h1>
-    <div class="skills-grid">
-      <div class="skill">
-        <img src="assets/html.png" alt="HTML5">
-        <p>HTML5</p>
-      </div>
-      <div class="skill">
-        <img src="assets/css.png" alt="CSS3">
-        <p>CSS3</p>
-      </div>
-      <div class="skill">
-        <img src="assets/java.png" alt="Java">
-        <p>JAVA</p>
-      </div>
-      <div class="skill">
-        <img src="assets/javascript.png" alt="JavaScript">
-        <p>JavaScript</p>
-      </div>
-      <div class="skill">
-        <img src="assets/icons8-mongodb-48.png" alt="Mongodb">
-        <p>Mongodb</p>
-      </div>
-    
-      <div class="skill">
-        <img src="./assets/icons8-git-48.png" alt="Git">
-        <p>Git</p>
-      </div>
-      <div class="skill">
-        <img src="./assets/icons8-mysql-50.png" alt="Mysql">
-        <p>Mysql</p>
-      </div>
-    </div>
-  </div>
-  <h1 id="works">My Works</h1>
-    <div class="works-grid">
-    
-      <!-- Project 1 -->
-      <div class="work">
-        <img src="./assets/Bank.webp" alt="Project 1">
-        <div class="work-details">
-          <p>BANK APPLICATION</p>
-          <a href="https://github.com/SECE-2023-2027/java-db-project-leap-phase-i-boobalan13" >View on GitHub</a>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="container">
+                <h1>Boobalan</h1>
+                <p class="subtitle">Computer Science Engineering Student</p>
+                <p class="location">Coimbatore, India</p>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="container">
+                <h2>About Me</h2>
+                <p>I am a highly motivated B.E. Computer Science and Engineering student with a strong foundation in programming and software development. I have a deep passion for problem-solving, web development, and exploring innovative technologies. My goal is to leverage my skills in coding and software design to contribute effectively to the tech industry while continuously learning and improving my expertise.</p>
+            </div>
+        </section>
+
+        <section id="education">
+            <div class="container">
+                <h2>Education</h2>
+                <div class="education-card">
+                    <h3>Bachelor of Engineering (B.E.) in Computer Science and Engineering</h3>
+                    <p>Sri Eshwar College of Engineering, Coimbatore</p>
+                    <p>Second Year Student</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills">
+            <div class="container">
+                <h2>Technical Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3>Programming Languages</h3>
+                        <ul>
+                            <li>C</li>
+                            <li>C++</li>
+                            <li>Java</li>
+                            <li>JavaScript</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Web Technologies</h3>
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Databases</h3>
+                        <ul>
+                            <li>MySQL</li>
+                            <li>MongoDB</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Version Control</h3>
+                        <ul>
+                            <li>Git</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <div class="container">
+                <h2>Projects</h2>
+                <div class="project-grid">
+                    <div class="project-card">
+                        <h3>Bank Application</h3>
+                        <p>A bank management system using Java and MySQL with features like account creation, transaction processing, and balance management.</p>
+                    </div>
+                    <div class="project-card">
+                        <h3>Food Delivery System</h3>
+                        <p>A food ordering and delivery platform with user authentication, order tracking, and payment gateway integration.</p>
+                    </div>
+                    <div class="project-card">
+                        <h3>Hostel Management System</h3>
+                        <p>A system for managing student accommodation with room allocation, fee management, and student record tracking.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container">
+                <h2>Contact</h2>
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="contact-icon">📧</i>
+                            <a href="mailto:balanravi1304@gmail.com" class="contact-link">balanravi1304@gmail.com</a>
+                        </div>
+                        <div class="contact-item">
+                            <i class="contact-icon">🔗</i>
+                            <a href="https://github.com/boobalan13" target="_blank" class="contact-link">github.com/boobalan13</a>
+                        </div>
+                        <div class="contact-item">
+                            <i class="contact-icon">💼</i>
+                            <a href="https://linkedin.com/in/boobalan-ravi-b60b25291" target="_blank" class="contact-link">linkedin.com/in/boobalan-ravi-b60b25291</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Boobalan. All rights reserved.</p>
         </div>
-      </div>
-      
-      <!-- Project 2 -->
-      <div class="work">
-        <img src="./assets/Food delivery image.webp" alt="Project 2">
-        <div class="work-details">
-          <p>FOOD DELIVERY</p>
-          <a href="https://github.com/SECE-2023-2027/CSEA-boobalan13" >View on GitHub</a>
-        </div>
-      </div>
-      
-      <!-- Project 3 -->
-      <div class="work">
-        <img src="./assets/Hostel management image.webp" alt="Project 3">
-        <div class="work-details">
-          <p>HOSTEL MANAGEMENT</p>
-          <a href="https://github.com/SECE-2023-2027/own-project-boobalan13" >View on GitHub</a>
-        </div>
-      </div>
-    </div>
-  </div>
+    </footer>
 </body>
 </html>
